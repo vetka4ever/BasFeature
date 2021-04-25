@@ -222,6 +222,13 @@ class Menu: UIViewController
         }
     }
     
+    @IBAction func helpButton(_ sender: Any)
+    {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Help") as! Help
+            self.present(nextViewController, animated:true, completion:nil)
+        
+    }
     
 }
 extension Menu: UITabBarDelegate

@@ -25,6 +25,10 @@
 		F35C541A25C566A10097EA83 /* TeamsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35C541925C566A10097EA83 /* TeamsList.swift */; };
 		F38FEA8325C17D0000266062 /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38FEA8225C17CFF00266062 /* TeamsView.swift */; };
 		F3A7C57525C97F1600FA5B4D /* addView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7C57425C97F1600FA5B4D /* addView.swift */; };
+		F3B3D1212632CC2200953DA2 /* LScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B3D1202632CC2200953DA2 /* LScreen.storyboard */; };
+		F3B83CD9262DDD73003CAFFA /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B83CD8262DDD73003CAFFA /* Help.swift */; };
+		F3B83CF1262E819C003CAFFA /* HelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B83CEF262E819C003CAFFA /* HelpCell.swift */; };
+		F3B83CF2262E819C003CAFFA /* HelpCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B83CF0262E819C003CAFFA /* HelpCell.xib */; };
 		F3C45CBC25DD900B00029661 /* StaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C45CBB25DD900B00029661 /* StaticView.swift */; };
 		F3CD9984261581FB0068152E /* Entrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD9983261581FB0068152E /* Entrance.swift */; };
 		F3CEC69925307FBA001E2C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CEC69825307FBA001E2C6C /* AppDelegate.swift */; };
@@ -83,6 +87,10 @@
 		F35C541925C566A10097EA83 /* TeamsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsList.swift; sourceTree = "<group>"; };
 		F38FEA8225C17CFF00266062 /* TeamsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
 		F3A7C57425C97F1600FA5B4D /* addView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addView.swift; sourceTree = "<group>"; };
+		F3B3D1202632CC2200953DA2 /* LScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LScreen.storyboard; sourceTree = "<group>"; };
+		F3B83CD8262DDD73003CAFFA /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		F3B83CEF262E819C003CAFFA /* HelpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCell.swift; sourceTree = "<group>"; };
+		F3B83CF0262E819C003CAFFA /* HelpCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpCell.xib; sourceTree = "<group>"; };
 		F3C45CBB25DD900B00029661 /* StaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticView.swift; sourceTree = "<group>"; };
 		F3CD9983261581FB0068152E /* Entrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrance.swift; sourceTree = "<group>"; };
 		F3CEC69525307FBA001E2C6C /* BasketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,6 +286,8 @@
 			isa = PBXGroup;
 			children = (
 				F3D063C825C2D1AB0082A82F /* Main.storyboard */,
+				F3B3D1202632CC2200953DA2 /* LScreen.storyboard */,
+				F3F5818C262DD426000F5FD4 /* Help */,
 				F3CEC69825307FBA001E2C6C /* AppDelegate.swift */,
 				F3CEC69A25307FBA001E2C6C /* SceneDelegate.swift */,
 				F3F28F3025C158A400A52F48 /* Funcs.swift */,
@@ -317,6 +327,16 @@
 				F3F0B989261F4266004CFC2E /* UserInfo.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		F3F5818C262DD426000F5FD4 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				F3B83CD8262DDD73003CAFFA /* Help.swift */,
+				F3B83CEF262E819C003CAFFA /* HelpCell.swift */,
+				F3B83CF0262E819C003CAFFA /* HelpCell.xib */,
+			);
+			path = Help;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,7 +453,9 @@
 				F35956CD25CA9418003CD631 /* namePlayerCell.xib in Resources */,
 				F34D12CE25D2FF3B00911A3A /* seePlayerCell.xib in Resources */,
 				F34CB57925CA94EE0027BE3A /* nameTeamsCell.xib in Resources */,
+				F3B83CF2262E819C003CAFFA /* HelpCell.xib in Resources */,
 				F31C008725DC289E0032548D /* numTimeZoneCell.xib in Resources */,
+				F3B3D1212632CC2200953DA2 /* LScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +597,8 @@
 				F3C45CBC25DD900B00029661 /* StaticView.swift in Sources */,
 				F3E7BB6225D4392E007D898A /* PlayerCell.swift in Sources */,
 				F3CEC69B25307FBA001E2C6C /* SceneDelegate.swift in Sources */,
+				F3B83CF1262E819C003CAFFA /* HelpCell.swift in Sources */,
+				F3B83CD9262DDD73003CAFFA /* Help.swift in Sources */,
 				F34D12CD25D2FF3B00911A3A /* seePlayerCell.swift in Sources */,
 				F38FEA8325C17D0000266062 /* TeamsView.swift in Sources */,
 				F34CB57825CA94EE0027BE3A /* nameTeamsCell.swift in Sources */,

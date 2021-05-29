@@ -2,7 +2,7 @@
 My first iOS application 
 I was must write application for getting static about basketbal's match. 
 What new elements i used in this project
-- UITableView
+– UITableView
 - UICollectionView
 - UIAlertController
 - UINavigationController

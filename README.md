@@ -1,6 +1,6 @@
 # BasFeature
 	My first iOS application.
-	I was must write application for getting static about basketbal's match. 
+	I was must write application for getting static about basketbal's match. In this app user enter throws like success or not by choosing sector, time player & result. 
 	What new elements i used in this project:
   	– UITableView
   	- UICollectionView
